@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "roboto", sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -12,6 +12,14 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
+
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
 }
 
 .sidebar {
@@ -20,50 +28,22 @@ body {
     -webkit-backdrop-filter: blur(10px);
 }
 
-.main {
-    display: grid;
-    align-items: center;
-}
-
-.main-img img {
-    border-radius: 50%;
-    padding: 5px;
-}
-
-.main-title h1 {
-    font-size: 70px;
-}
-
 /* footer */
-footer {
+.container-fluid {
+    padding: 0;
+}
+.footer {
+    padding: 40px 0;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    border: 1px solid red;
 }
 
-.social-links {
-    padding-bottom: 15px;
-}
-
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 24px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background-color: #00000050;
+.footer .social-icons {
+text-align: center;
+padding-bottom: 25px;
+color: black;
 }
 
     @media(max-width:991px) {
@@ -72,4 +52,5 @@ footer {
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
         }
+
     }
