@@ -20,8 +20,7 @@ body {
 }
 
 .jumbotron {
-  height: 90vh;
-  background: url(/assets/img/pasty-beach.jpg) rgba(255, 255, 255, 0.5);
+  background: url(/assets/img/pasty-beach.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
