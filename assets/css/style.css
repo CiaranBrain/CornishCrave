@@ -2,11 +2,35 @@
 
 body {
   font-family: "Cormorant", serif;
-  
+  background-color: antiquewhite;
+
   font-style: normal;
   font-optical-sizing: auto;
 }
 
 .welcome {
-    font-weight: 700;
+  font-weight: 700;
+}
+
+.jumbo-img {
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 15px 5px #000000;
+  box-shadow: 0px 0px 15px 5px #000000;
+}
+
+.jumbotron {
+  height: 90vh;
+  background: url(/assets/img/pasty-beach.jpg) rgba(255, 255, 255, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: auto;
+}
+
+@media (max-width: 768px) {
+
+  .jumbo-img img {
+    margin: 20px;
+  }
 }
