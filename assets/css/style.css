@@ -29,6 +29,18 @@ body {
   max-height: 60vh;
 }
 
+.card {
+  background-color: #f6f0e3;
+}
+
+.frame {
+  background-color: #f6f0e3;
+}
+
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
 
 @media (max-width: 768px) {
 
@@ -45,4 +57,8 @@ body {
   .jumbotron-img img {
     display: none;
   }
+}
+
+@media screen and (min-width: 991px) {
+  .jumbotron
 }
