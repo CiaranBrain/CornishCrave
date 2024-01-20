@@ -8,6 +8,10 @@ body {
   font-optical-sizing: auto;
 }
 
+.blur-effect {
+  background-color: #f6f0e3;
+}
+
 .jumbo-img {
   margin: 20px;
   border-radius: 50%;
