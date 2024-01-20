@@ -26,7 +26,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   overflow: auto;
-  max-height: 60vh;
+  min-height: 50vh;
 }
 
 .card {
@@ -42,6 +42,19 @@ body {
   background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.about-half {
+  min-height: 50vh;
+
+}
+
+.custom-form {
+  margin: 50px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #f6f0e3;
+
+}
 @media (max-width: 768px) {
 
   .jumbotron img {
@@ -54,11 +67,9 @@ body {
 
 /* Media query for screens smaller than 991 pixels */
 @media screen and (max-width: 991px) {
-  .jumbotron-img img {
-    display: none;
-  }
+
 }
 
 @media screen and (min-width: 991px) {
-  .jumbotron
+
 }
