@@ -33,7 +33,7 @@ background: linear-gradient(0deg, rgba(246,240,227,0.304359243697479) 0%, rgba(2
   overflow: auto;
   min-height: 50vh;
   background-color: #f6f0e3;
-  mix-blend-mode: darken;
+  mix-blend-mode: multiply;
 }
 
 .card {
