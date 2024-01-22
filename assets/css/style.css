@@ -23,16 +23,17 @@ body {
 .box-jumbo{
   background: rgb(246,240,227);
 background: linear-gradient(0deg, rgba(246,240,227,0.304359243697479) 0%, rgba(246,240,227,1) 100%);
-mix-blend-mode: multiply;
 }
 
 .jumbotron {
-  background: url(/assets/img/pasty-bw.jpg);
+  background: url(../img/pasty-bw.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   overflow: auto;
   min-height: 50vh;
+  background-color: #f6f0e3;
+  mix-blend-mode: darken;
 }
 
 .card {
