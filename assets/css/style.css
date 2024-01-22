@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-  background: rgb(246,240,227);
+  background: rgba(246,240,227, 1);
 }
 
 .jumbo-img {
@@ -23,6 +23,7 @@ body {
 .box-jumbo{
   background: rgb(246,240,227);
 background: linear-gradient(0deg, rgba(246,240,227,0.304359243697479) 0%, rgba(246,240,227,1) 100%);
+mix-blend-mode: multiply;
 }
 
 .jumbotron {
